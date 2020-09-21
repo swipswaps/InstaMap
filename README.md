@@ -1,8 +1,8 @@
 # InstaMap
 
-The script scrapes Instagram profile and generates a map.html file using its data using Instaloader and Folium modules. 
-Each location from the profile is represented on the map with a clickable marker with a pop-up window including 
-different data from posts with this location (as date, thumbnail image, url, number of likes etc.);
+The script scrapes Instagram profile and generates a map.html file using its data (with the help of Instaloader and Folium modules). 
+Each location from the profile is represented on the map as a clickable marker with a pop-up window including 
+different data from posts at this location (as date, thumbnail image, url, number of likes etc.);
 
 ====================================================================================================
 
