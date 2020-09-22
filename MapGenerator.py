@@ -21,8 +21,7 @@ time.sleep(1)
 print("Please, wait until the current program is finished")
 time.sleep(1)
 
-# Create location_dict: common linear execution.
-# Multithreading of multiprocessing is irrelevant because of Instagram request limits
+# Create location_dict
 t = time.time()
 location_dict = create_location_dict(posts_object)
 print("Done in: ", time.time()-t)
