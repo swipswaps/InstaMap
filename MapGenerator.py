@@ -13,8 +13,8 @@ print("In order to receive locations of posts you should sign into Instagram acc
 time.sleep(3)
 username = input('Enter your username: ')
 password = getpass.getpass(prompt='Enter your password: ')
-print(password)
 profile_name = input('Enter target profile name: ')
+
 posts_object = create_posts_object(profile_name, username, password)
 print("Received posts object: ", posts_object)
 time.sleep(1)
