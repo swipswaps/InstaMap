@@ -28,8 +28,8 @@ print("Done in: ", time.time()-t)
 
 
 # Create map object
-my_map = Map(location=[50.3005988, 24.2444963])
-tooltip = 'Click here'
+my_map = Map(location=[50.3005988, 24.2444963], zoom_start=4)
+
 
 # put the data from Instagram profile on the map
 for location in location_dict:
@@ -49,7 +49,7 @@ for location in location_dict:
         # default popup's design
         iframe = branca.element.IFrame(html=html, width=180, height='100%')
         popup = Popup(iframe)
-        Marker(location, popup=popup, tooltip=tooltip).add_to(my_map)
+        Marker(location, popup=popup).add_to(my_map)
     except ValueError:
         continue
 
